@@ -1,39 +1,44 @@
-# Udacity Item Catalog
+# Item catalog
 
-A simple web application that provides a list of items within a variety of categories and integrate third party user registration and authentication. Authenticated users have the ability to post, edit, and delete their own items.
+A python program provide a list of games and their description
 
-## Set Up
+## Getting Started
 
-1. Clone the [fullstack-nanodegree-vm repository](https://github.com/udacity/fullstack-nanodegree-vm).
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-2. Look for the *catalog* folder and replace it with the contents of this respository.
+### Prerequisites
 
-## Usage
+```
+Git bash
+```
+```
+python
+```
+```
+vagrant
+```
 
-Launch the Vagrant VM from inside the *vagrant* folder with:
-
-`vagrant up`
-
-Then access the shell with:
-
-`vagrant ssh`
-
-Then move inside the catalog folder:
-
-`cd /vagrant/catalog`
-
-Then run the application:
-
-`python application.py`
-
-After the last command you are able to browse the application at this URL:
-
-`http://localhost:5000/`
+### Installing
 
 
-## Release History
-* 0.1.0 - Initial release
-
-## License
-
-MIT © [Ricardo Raphael Joson](http://rrjoson.com)
+```
+vagrant up
+```
+```
+vagrant ssh
+```
+```
+cd /vagrant/catalog
+```
+```
+python database_setup.py
+```
+```
+python items.py
+```
+```
+python item-catalog.py
+```
+```
+Run the application via http://localhost:5000.
+```
